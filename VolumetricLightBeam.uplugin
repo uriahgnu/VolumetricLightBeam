@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VolumetricLightBeam",
+	"Description": "Adds a VolumetricSpotLightComponent that provides high quality performant alternative to using volumetric scattering.",
+	"Category": "Other",
+	"CreatedBy": "Uriah",
+	"CreatedByURL": "https://www.youtube.com/@UriahGnu",
+	"DocsURL": "https://github.com/uriahgnu/VolumetricLightBeam",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "VolumetricLightBeam",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+        {
+            "Name": "Volumetrics",
+            "Enabled": true
+        }
+    ]
+}
